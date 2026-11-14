@@ -8,6 +8,7 @@ entity Authors {
 }
 
 entity Books {
+    key ID : UUID;
     stock: NoOfBooks;
     price: Price;
     genre: Genre;
